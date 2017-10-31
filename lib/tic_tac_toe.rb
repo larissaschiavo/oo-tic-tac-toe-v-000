@@ -21,10 +21,14 @@ class TicTacToe
 
  def move(index, token)
    @board[index] = token
- end 
+ end
 
  def position_taken?(index)
    @board[index] != " "
+ end
+
+ def valid_move?(index)
+   @board[index] < 9 && position_taken? == false  
  end 
- 
+
 end
