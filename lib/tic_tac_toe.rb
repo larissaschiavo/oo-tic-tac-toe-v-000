@@ -79,7 +79,7 @@ class TicTacToe
     puts winner ? "Congratulations #{winner}!" : "Cat's Game!"
   end
 
-  def over? 
+  def over?
     draw? || won? 
-  end 
+  end
 end
