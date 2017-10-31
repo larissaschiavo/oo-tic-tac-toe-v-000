@@ -64,4 +64,7 @@ class TicTacToe
     board.all?{|pos| pos != " "}
   end 
 
+  def draw?
+    full? && !won?
+  end
 end
