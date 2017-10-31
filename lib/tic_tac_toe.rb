@@ -62,7 +62,6 @@ class TicTacToe
 
   def full?
     board.all?{|pos| pos != " "}
-  
-
+  end 
 
 end
